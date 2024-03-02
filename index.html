@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,15 @@
 </head>
 
 <body>
-	
+
 	<header class="header">
 		<a class="header-logo" href="/">
-			<img 
-				class="header-logo-image" 
-				src="/images/logo_crisp.png" 
-				alt="Crisp logo"
-				width="94" height="44" loading="lazy"
-			>
+			<img class="header-logo-image" src="/images/logo_crisp.png" alt="Crisp logo" width="94" height="44">
 		</a>
 		<nav class="header-menu">
 			<ul class="header-menu-list">
 				<li class="header-menu-item">
-					<a class="header-menu-link redline" href="/">Home</a>
+					<a class="header-menu-link is-active" href="/">Home</a>
 				</li>
 				<li class="header-menu-item">
 					<a class="header-menu-link" href="/">Shop</a>
@@ -40,33 +36,67 @@
 				</li>
 			</ul>
 			<ul class="header-actions-list">
-				<li class="header-action-item">
-					<a class="header-actions-link signin" href="/">Sign in</a>
+				<li class="header-actions-item">
+					<a class="header-actions-link sign-in" href="/">Sign in</a>
 				</li>
-				<li class="header-action-item">
+				<li class="header-actions-item">
 					<a class="header-actions-link createacc" href="/">Create an account</a>
 				</li>
-				<li class="header-action-item">
+				<li class="header-actions-item">
 					<a class="header-actions-link" href="/">
-						<img class="header-action-favor" src="/icons/heart.svg" alt="heart icon">
+						<img class="header-actions-favor" src="/icons/heart.svg" alt="heart icon">
 					</a>
 				</li>
-				<li class="header-action-item">
+				<li class="header-actions-item">
 					<a class="header-actions-link" href="/">
-						<img class="header-action-bag" src="/icons/bag.svg" alt="bag">
+						<img class="header-actions-bag" src="/icons/bag.svg" alt="bag">
 					</a>
 				</li>
 			</ul>
-			<ul class="header-action-shopcart">
-				<li class="header-action-item shop">
-					<a class="header-actions-flexshop" href="/">Shopping Cart</a>
-				</li>
-				<li class="header-action-item eur">
-					<a class="header-actions-flexshop" href="/">0,00 Eur</a>
+			<ul class="header-actions-shopping-cart-container">
+				<li class="header-actions-shopping-cart">
+					<a class="header-actions-shopping-cart" href="/">Shopping Cart<br>
+						<span class="total-price">0,00 Eur</span>
+					</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	
+	<main class="content">
+		<div class="banner-body">
+			<div class="banner-body-pagination ">
+				<ul class="banner-body-pagination-list">
+					<li class="banner-body-pagination-item"></li>
+					<li class="banner-body-pagination-item is-current"></li>
+					<li class="banner-body-pagination-item"></li>
+					<li class="banner-body-pagination-item"></li>
+				</ul>
+			</div>
+			<div class="banner-body-info">
+				<div class="banner-body-info-text-border"></div>
+				<div class="banner-body-info-container">
+					<p class="banner-body-info-text">Summer sale<br> get
+						<span class="transparent-text">30% off</span> <br> on all dress.
+					</p>
+				</div>
+				<a href="/" class="banner-body-info-btn">shop now</a>
+			</div>
+			<div class="banner-body-slider-image-container">
+				<img src="/images/asian.png" alt="asian model" class="banner-body-slider-image-asian">
+				<img src="/images/blonde.png" alt="blonde model" class="banner-body-slider-image-blonde">
+			</div>
+			<div class="banner-body-slider-buttons">
+				<a href="/" class="banner-body-slider-prev-btn">
+					<img src="/icons/prevbtn.svg" alt="prev button" class="prev-btn">
+				</a>
+				<a href="/" class="banner-body-slider-next-btn">
+					<img src="/icons/nextbtn.svg" alt="next button" class="next-btn">
+				</a>
+			</div>
+
+		</div>
+	</main>
+
 </body>
+
 </html>
