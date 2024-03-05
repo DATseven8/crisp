@@ -11,51 +11,51 @@
 <body>
 
 	<header class="header">
-		<a class="header-logo" href="/">
-			<img class="header-logo-image" src="/images/logo_crisp.png" alt="Crisp logo" width="94" height="44">
+		<a class="header__logo" href="/">
+			<img src="/images/logo_crisp.png" alt="Crisp logo" width="94" height="44">
 		</a>
-		<nav class="header-menu">
-			<ul class="header-menu-list">
-				<li class="header-menu-item">
-					<a class="header-menu-link is-active" href="/">Home</a>
+		<nav class="header__navbar">
+			<ul class="header__navbar_list">
+				<li>
+					<a class="header__navbar_link is-active" href="/">Home</a>
 				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Shop</a>
+				<li>
+					<a class="header__navbar_link" href="/">Shop</a>
 				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Blog</a>
+				<li>
+					<a class="header__navbar_link" href="/">Blog</a>
 				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Sale</a>
+				<li>
+					<a class="header__navbar_link" href="/">Sale</a>
 				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Contact us</a>
+				<li>
+					<a class="header__navbar_link" href="/">Contact us</a>
 				</li>
-				<li class="header-menu-item search-item">
-					<a class="header-menu-link icon-search" href="/">Search</a>
-				</li>
-			</ul>
-			<ul class="header-actions-list">
-				<li class="header-actions-item">
-					<a class="header-actions-link sign-in" href="/">Sign in</a>
-				</li>
-				<li class="header-actions-item">
-					<a class="header-actions-link createacc" href="/">Create an account</a>
-				</li>
-				<li class="header-actions-item">
-					<a class="header-actions-link" href="/">
-						<img class="header-actions-favor" src="/icons/heart.svg" alt="heart icon">
-					</a>
-				</li>
-				<li class="header-actions-item">
-					<a class="header-actions-link" href="/">
-						<img class="header-actions-bag" src="/icons/bag.svg" alt="bag">
-					</a>
+				<li>
+					<a class="header__navbar_link icon-search" href="/">Search</a>
 				</li>
 			</ul>
-			<ul class="header-actions-shopping-cart-container">
-				<li class="header-actions-shopping-cart">
-					<a class="header-actions-shopping-cart" href="/">Shopping Cart<br>
+			<ul class="header__actions_list">
+				<li>
+					<a class="header__actions_link sign-in" href="/">Sign in</a>
+				</li>
+				<li>
+					<a class="header__actions_link" href="/">Create an account</a>
+				</li>
+				<li>
+					<a class="header__actions_link" href="/">
+						<img class="header__actions_favor" src="/icons/heart.svg" alt="heart icon">
+					</a>
+				</li>
+				<li>
+					<a class="header__actions_link" href="/">
+						<img src="/icons/bag.svg" alt="bag">
+					</a>
+				</li>
+			</ul>
+			<ul class="header__actions_shopping-cart-container">
+				<li class="header__actions_shopping-cart_item">
+					<a class="header__actions_shopping-cart_item" href="/">Shopping Cart<br>
 						<span class="total-price">0,00 Eur</span>
 					</a>
 				</li>
@@ -64,36 +64,70 @@
 	</header>
 	<main class="content">
 		<div class="banner-body">
-			<div class="banner-body-pagination ">
-				<ul class="banner-body-pagination-list">
-					<li class="banner-body-pagination-item"></li>
-					<li class="banner-body-pagination-item is-current"></li>
-					<li class="banner-body-pagination-item"></li>
-					<li class="banner-body-pagination-item"></li>
+			<div class="banner-body__pagination ">
+				<ul class="banner-body__pagination_list">
+					<li class="banner-body__pagination_item"></li>
+					<li class="banner-body__pagination_item is-current"></li>
+					<li class="banner-body__pagination_item"></li>
+					<li class="banner-body__pagination_item"></li>
 				</ul>
 			</div>
-			<div class="banner-body-info">
-				<div class="banner-body-info-text-border"></div>
-				<div class="banner-body-info-container">
-					<p class="banner-body-info-text">Summer sale<br> get
+			<div class="banner-body__info">
+				<div class="banner-body__info_text-border"></div>
+				<div class="banner-body__info_container">
+					<p>Summer sale<br> get
 						<span class="transparent-text">30% off</span> <br> on all dress.
 					</p>
 				</div>
-				<a href="/" class="banner-body-info-btn">shop now</a>
+				<a href="/" class="banner-body__info_cta-btn">shop now</a>
 			</div>
-			<div class="banner-body-slider-image-container">
-				<img src="/images/asian.png" alt="asian model" class="banner-body-slider-image-asian">
-				<img src="/images/blonde.png" alt="blonde model" class="banner-body-slider-image-blonde">
+			<div class="banner-body__slider_image-container">
+				<img src="/images/asian.png" alt="asian model" class="banner-body__slider_image-asian">
+				<img src="/images/blonde.png" alt="blonde model" class="banner-body__slider_image-blonde">
 			</div>
-			<div class="banner-body-slider-buttons">
-				<a href="/" class="banner-body-slider-prev-btn">
-					<img src="/icons/prevbtn.svg" alt="prev button" class="prev-btn">
+			<div class="banner-body__slider_buttons">
+				<a href="/">
+					<img src="/icons/prevbtn.svg" alt="prev button">
 				</a>
-				<a href="/" class="banner-body-slider-next-btn">
-					<img src="/icons/nextbtn.svg" alt="next button" class="next-btn">
+				<a href="/">
+					<img src="/icons/nextbtn.svg" alt="next button">
 				</a>
 			</div>
 
+		</div>
+		<div class="choose-brand__container">
+			<div class="choose-brand_title">
+				<span class="choose-brand_title-text">Choose your brand</span>
+			</div>
+			<div class="border-svg">
+				<svg width="1880" height="200" viewBox="0 0 1880 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M756 1H1V199H1879V1H1125" stroke="#c4c4c4" stroke-width="2" />
+				</svg>
+			</div>
+			<div class="choose-brand_brand-block">
+				<a href="/">
+					<img src="/images/Chanel.png" alt="logo Chanel">
+				</a>
+				<a href="/">
+					<img src="/images/Burberry.png" alt="logo Burberry">
+				</a>
+				<a href="/">
+					<img src="/images/Dior.png" alt="logo Dior">
+				</a>
+				<a href="/">
+					<img src="/images/Fendi.png" alt="logo Fendi">
+				</a>
+				<a href="/">
+					<img src="/images/Versace.png" alt="logo Versace">
+				</a>
+				<a href="/">
+					<img src="/images/Gucci.png" alt="logo Gucci">
+				</a>
+				<a href="/">
+					<img src="/images/Armani.png" alt="logo Armani">
+				</a>
+
+			</div>
 		</div>
 	</main>
 

@@ -102,16 +102,12 @@ button {
 }
 
 html {
-
 	height: 100%;
-
 	scroll-behavior: smooth;
 }
 
 body {
-
 	min-height: 100%;
-
 	line-height: 1.5;
 }
 
@@ -119,9 +115,9 @@ svg *[fill] {
 	fill: currentColor
 }
 
-svg *[stroke] {
+/* svg *[stroke] {
 	stroke: currentColor
-}
+} */
 
 svg * {
 	transition-property: fill, stroke;
@@ -145,7 +141,6 @@ svg * {
 
 	--font-family-base: 'Oswald', sans-serif;
 	--font-family-accent: 'Roboto', sans-serif;
-
 
 	--input-height: 56px;
 }
@@ -176,17 +171,17 @@ h6 {
 	display: inline-flex;
 }
 
-.header-logo {
+.header__logo {
 	padding: 35px;
 	margin-left: -15px;
 }
 
-.header-menu {
+.header__navbar {
 	display: inline-flex;
 	justify-content: center;
 }
 
-.header-menu-list {
+.header__navbar_list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -204,6 +199,10 @@ h6 {
 	border-bottom: 2px solid var(--color-red);
 }
 
+.header__navbar_link {
+	text-decoration: none;
+}
+
 .icon-search::before {
 	content: url("/icons/magnifier.svg");
 	position: relative;
@@ -211,11 +210,8 @@ h6 {
 	padding-right: 10px;
 }
 
-.header-menu-link {
-	text-decoration: none;
-}
 
-.header-actions-list {
+.header__actions_list {
 	display: inline-flex;
 	justify-content: center;
 	padding-left: 30px;
@@ -227,28 +223,26 @@ h6 {
 	padding-left: 28px;
 }
 
-.header-actions-favor {
+.header__actions_favor {
 	padding-left: 25px;
-}
-
-.header-actions-link {
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.header-actions-favor {
 	position: relative;
 	right: 10px;
 }
 
-.header-actions-shopping-cart-container {
+.header__actions_link {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header__actions_shopping-cart-container {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-left: 12px;
+
 }
 
-.header-actions-shopping-cart {
-	padding-left: 12px;
+.header__actions_shopping-cart_item {
 	font-size: 12px;
 	font-family: var(--font-family-accent);
 	position: relative;
@@ -258,8 +252,8 @@ h6 {
 }
 
 .total-price {
-	font-family: var(--font-family-accent);
 	text-transform: uppercase;
+	font-family: var(--font-family-accent);
 	font-size: 14px;
 	font-weight: 500;
 }
@@ -274,7 +268,7 @@ h6 {
 	background-image: url("/images/beach.png");
 }
 
-.banner-body-pagination {
+.banner-body__pagination {
 	width: 233px;
 	display: flex;
 	align-items: end;
@@ -282,13 +276,13 @@ h6 {
 	padding-bottom: 22px;
 }
 
-.banner-body-pagination-list {
+.banner-body__pagination_list {
 	display: flex;
 	column-gap: 8px;
 	align-items: center;
 }
 
-.banner-body-pagination-item {
+.banner-body__pagination_item {
 	width: 18px;
 	height: 18px;
 	border: 1px solid black;
@@ -301,13 +295,13 @@ h6 {
 	background-color: black;
 }
 
-.banner-body-info {
+.banner-body__info {
 	width: 654px;
 	display: flex;
 	flex-direction: column;
 }
 
-.banner-body-info-text-border {
+.banner-body__info_text-border {
 	border-top: 2px solid black;
 	border-right: 2px solid black;
 	position: relative;
@@ -317,7 +311,7 @@ h6 {
 	height: 102px;
 }
 
-.banner-body-info-container {
+.banner-body__info_container {
 	height: 500px;
 	font-family: var(--font-family-base);
 	text-transform: uppercase;
@@ -335,7 +329,7 @@ h6 {
 	letter-spacing: 1px;
 }
 
-.banner-body-info-btn {
+.banner-body__info_cta-btn {
 	border: 2px solid black;
 	width: 175px;
 	height: 56px;
@@ -351,28 +345,60 @@ h6 {
 	bottom: 62px;
 }
 
-.banner-body-slider-image-container {
+.banner-body__slider_image-container {
 	width: 888px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.banner-body-slider-image-asian {
+.banner-body__slider_image-asian {
 	position: relative;
 	top: 13px;
 	left: 36px;
 }
 
-.banner-body-slider-image-blonde {
+.banner-body__slider_image-blonde {
 	position: relative;
 	right: 96px;
 	top: 11px;
 }
 
-.banner-body-slider-buttons {
+.banner-body__slider_buttons {
 	width: 103px;
 	display: flex;
 	align-items: end;
 	column-gap: 3px;
+}
+
+.choose-brand__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1884px;
+	height: 221px;
+	margin-top: 23px;
+	padding-left: 35px;
+}
+
+.choose-brand_title {
+	width: 370px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.choose-brand_title-text {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.border-svg {
+	margin-top: 19px;
+	position: absolute;
+}
+
+.choose-brand_brand-block {
+	display: flex;
+	column-gap: 35px;
 }
