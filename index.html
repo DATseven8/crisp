@@ -5,99 +5,99 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Crisp</title>
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 	<header class="header">
-		<a class="header__logo" href="/">
-			<img src="/images/logo_crisp.png" alt="Crisp logo" width="94" height="44">
+		<a class="header__logo" href="#">
+			<img src="images/logo_crisp.png" alt="Crisp logo" width="94" height="44">
 		</a>
 		<nav class="header__navbar">
-			<ul class="header__navbar_list">
+			<ul class="navbar__list">
 				<li>
-					<a class="header__navbar_link is-active" href="/">Home</a>
+					<a class="navbar__link is-active" href="#">Home</a>
 				</li>
 				<li>
-					<a class="header__navbar_link" href="/">Shop</a>
+					<a class="navbar__link" href="#">Shop</a>
 				</li>
 				<li>
-					<a class="header__navbar_link" href="/">Blog</a>
+					<a class="navbar__link" href="#">Blog</a>
 				</li>
 				<li>
-					<a class="header__navbar_link" href="/">Sale</a>
+					<a class="navbar__link" href="#">Sale</a>
 				</li>
 				<li>
-					<a class="header__navbar_link" href="/">Contact us</a>
+					<a class="navbar__link" href="#">Contact us</a>
 				</li>
 				<li>
-					<a class="header__navbar_link icon-search" href="/">Search</a>
+					<a class="navbar__link icon-search" href="#">Search</a>
 				</li>
 			</ul>
-			<ul class="header__actions_list">
+			<ul class="header__actions">
 				<li>
-					<a class="header__actions_link sign-in" href="/">Sign in</a>
+					<a class="actions__link sign-in" href="#">Sign in</a>
 				</li>
 				<li>
-					<a class="header__actions_link" href="/">Create an account</a>
+					<a class="actions__link" href="#">Create an account</a>
 				</li>
 				<li>
-					<a class="header__actions_link" href="/">
-						<img class="header__actions_favor" src="/icons/heart.svg" alt="heart icon">
+					<a class="actions__link" href="#">
+						<img class="actions__favor" src="icons/heart.svg" alt="heart icon">
 					</a>
 				</li>
 				<li>
-					<a class="header__actions_link" href="/">
-						<img src="/icons/bag.svg" alt="bag">
+					<a class="actions__link" href="#">
+						<img src="icons/bag.svg" alt="bag" class="icon-bag">
 					</a>
 				</li>
 			</ul>
-			<ul class="header__actions_shopping-cart-container">
-				<li class="header__actions_shopping-cart_item">
+			<ul class="header__shopping-cart">
+				<li class="shopping-cart__item">
 					<a class="header__actions_shopping-cart_item" href="/">Shopping Cart<br>
-						<span class="total-price">0,00 Eur</span>
+						<span class="shopping-cart__total-price">0,00 Eur</span>
 					</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main class="content">
-		<div class="banner-body">
-			<div class="banner-body__pagination ">
-				<ul class="banner-body__pagination_list">
-					<li class="banner-body__pagination_item"></li>
-					<li class="banner-body__pagination_item is-current"></li>
-					<li class="banner-body__pagination_item"></li>
-					<li class="banner-body__pagination_item"></li>
+		<div class="hero-container">
+			<div class="hero-container__pagination ">
+				<ul class="pagination__list">
+					<li class="pagination__item"></li>
+					<li class="pagination__item is-current"></li>
+					<li class="pagination__item"></li>
+					<li class="pagination__item"></li>
 				</ul>
 			</div>
-			<div class="banner-body__info">
-				<div class="banner-body__info_text-border"></div>
-				<div class="banner-body__info_container">
+			<div class="hero-container__info">
+				<div class="info__text-border"></div>
+				<div class="info__container">
 					<p>Summer sale<br> get
 						<span class="transparent-text">30% off</span> <br> on all dress.
 					</p>
 				</div>
-				<a href="/" class="banner-body__info_cta-btn">shop now</a>
+				<a href="#" class="hero-container__button">shop now</a>
 			</div>
-			<div class="banner-body__slider_image-container">
-				<img src="/images/asian.png" alt="asian model" class="banner-body__slider_image-asian">
-				<img src="/images/blonde.png" alt="blonde model" class="banner-body__slider_image-blonde">
+			<div class="hero-container__slider">
+				<img src="images/asian.png" alt="asian model" class="slider__image--asian">
+				<img src="images/blonde.png" alt="blonde model" class="slider__image--blonde">
 			</div>
-			<div class="banner-body__slider_buttons">
-				<a href="/">
-					<img src="/icons/prevbtn.svg" alt="prev button">
+			<div class="slider__buttons">
+				<a href="#">
+					<img src="icons/prevbtn.svg" alt="prev button">
 				</a>
-				<a href="/">
-					<img src="/icons/nextbtn.svg" alt="next button">
+				<a href="#">
+					<img src="icons/nextbtn.svg" alt="next button">
 				</a>
 			</div>
 
 		</div>
 		<div class="choose-brand__container">
 			<div class="choose-brand_title">
-				<span class="choose-brand_title-text">Choose your brand</span>
+				<h2 class="choose-brand_title-text">Choose your brand</h2>
 			</div>
 			<div class="border-svg">
 				<svg width="1880" height="200" viewBox="0 0 1880 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,29 +105,181 @@
 				</svg>
 			</div>
 			<div class="choose-brand_brand-block">
-				<a href="/">
-					<img src="/images/Chanel.png" alt="logo Chanel">
+				<a href="#" class="">
+					<img src="images/Chanel.png" alt="logo Chanel">
 				</a>
-				<a href="/">
-					<img src="/images/Burberry.png" alt="logo Burberry">
+				<a href="#" class="choose-brand_brand-block_is-active">
+					<img src="images/Burberry.png" alt="logo Burberry">
 				</a>
-				<a href="/">
-					<img src="/images/Dior.png" alt="logo Dior">
+				<a href="#">
+					<img src="images/Dior.png" alt="logo Dior">
 				</a>
-				<a href="/">
-					<img src="/images/Fendi.png" alt="logo Fendi">
+				<a href="#">
+					<img src="images/Fendi.png" alt="logo Fendi">
 				</a>
-				<a href="/">
-					<img src="/images/Versace.png" alt="logo Versace">
+				<a href="#">
+					<img src="images/Versace.png" alt="logo Versace">
 				</a>
-				<a href="/">
-					<img src="/images/Gucci.png" alt="logo Gucci">
+				<a href="#">
+					<img src="images/Gucci.png" alt="logo Gucci">
 				</a>
-				<a href="/">
-					<img src="/images/Armani.png" alt="logo Armani">
+				<a href="#">
+					<img src="images/Armani.png" alt="logo Armani">
 				</a>
-
 			</div>
+		</div>
+		<div class="promo__container">
+			<div class="promo_choose-your-look">
+				<div class="choose-your-look_block">
+					<span>choose <br> your look</span>
+					<div class="choose-your-look_block_text">See our clothing collections</div>
+					<a href="#" class="choose-your-look_block_btn">see offers</a>
+				</div>
+			</div>
+			<div class="promo_brand-new-style">
+				<div class="brand-new-style_block">
+					<span>brand new style</span>
+					<div class="brand-new-style_block_text">Popular clothing brands</div>
+					<a href="#" class="brand-new-style_block_btn">see offers</a>
+				</div>
+			</div>
+			<div class="promo_up-to-40-off">
+				<div class="up-to-40-off_block">
+					<span>up to <br> 40% off</span>
+					<div class="up-to-40-off_text">Special offers and great deals</div>
+					<a href="#" class="up-to-40-off_block_btn">shop now</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="catalog__container">
+			<div class="catalog-filters">
+				<div class="catalog-filter">
+					<h3 class="filter-title">Shop Some Wear:</h3>
+					<ul class="catalog-filter__items">
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<span class="custom-checkbox"></span>
+								<span class="custom-checkbox__text">best sellers</span>
+							</label>
+						</li>
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<span class="custom-checkbox"></span>
+								<span class="custom-checkbox__text">new arivals</span>
+							</label>
+						</li>
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="10" height="10" fill="black" />
+									<path d="M2 4.5L4.5 7L8.5 3" stroke="white" />
+								</svg>
+								<span class="custom-checkbox__text">top women</span>
+							</label>
+						</li>
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<span class="custom-checkbox"></span>
+								<span class="custom-checkbox__text">collection: summer</span>
+							</label>
+						</li>
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<span class="custom-checkbox"></span>
+								<span class="custom-checkbox__text">collection: spring</span>
+							</label>
+						</li>
+						<li class="catalog-filter__item">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input visually-hidden">
+								<span class="custom-checkbox"></span>
+								<span class="custom-checkbox__text">trending</span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="catalog-cards">
+				<div class="catalog-cards__items">
+					<div class="card item-01">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_01.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">139,00 EUR</div>
+					</div>
+					<div class="card item-02">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_02.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">235,00 EUR</div>
+					</div>
+					<div class="card item-03">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_03.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">90,00 EUR</div>
+					</div>
+					<div class="card item-04">
+						<div class="discount">-30%</div>
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_04.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<span class="card_price card_price-red">139,00 EUR</span>
+						<span class="card_price-previous">119,00 EUR</span>
+					</div>
+					<div class="card item-05">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_05.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">139,00 EUR</div>
+					</div>
+					<div class="card item-06">
+						<div class="discount">-30%</div>
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_06.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<span class="card_price card_price-red">139,00 EUR</span>
+						<span class="card_price-previous">119,00 EUR</span>
+					</div>
+					<div class="card item-07">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_07.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">139,00 EUR</div>
+					</div>
+					<div class="card item-08">
+						<a href="#" class="card-image">
+							<img class="image-margin" src="images/card_08.png" alt="top women">
+						</a>
+						<div class="card_category">top women</div>
+						<div class="card_title">Angels malu zip jeans slim black used</div>
+						<div class="card_price">139,00 EUR</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="load-more-button">
+			<a class="load-more" href="#">load more</a>
 		</div>
 	</main>
 
